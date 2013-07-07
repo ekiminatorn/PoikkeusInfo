@@ -13,3 +13,5 @@ Feel free to fork the repo and create pull requests!
 Notice: Developer of the application doesnt represent Helsinki Regional Traffic (HSL).
 
 Made by Emil Ekstrom, also known as uncleemil & Uncle_Emil
+
+Licensed under MIT License
