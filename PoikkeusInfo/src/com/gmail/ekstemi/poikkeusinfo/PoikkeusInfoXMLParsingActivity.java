@@ -36,7 +36,6 @@ public class PoikkeusInfoXMLParsingActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		System.out.println("Start of Code!");
 
 		ArrayList<HashMap<String, String>> menuItems = new ArrayList<HashMap<String, String>>();
 
@@ -85,7 +84,6 @@ public class PoikkeusInfoXMLParsingActivity extends ListActivity {
 		}
 			}	
 
-		System.out.println("End of code! ;)");
 
 		// Adding menuItems to ListView
 		ListAdapter adapter = new SimpleAdapter(this, menuItems,
@@ -94,7 +92,6 @@ public class PoikkeusInfoXMLParsingActivity extends ListActivity {
 						R.id.name, R.id.desciption, R.id.cost });
 
 		setListAdapter(adapter);
-		System.out.println("End of code, really!");
 		// selecting single ListView item
 		ListView lv = getListView();
 
